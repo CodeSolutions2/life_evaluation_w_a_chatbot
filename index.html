@@ -64,18 +64,18 @@
 <h4 id="topic_label" style="display:block;">Topic.</h4>
 <input id="topic" type="text" value="" placeholder="topic" rows="10" cols="100" style="display:block; text-align: left; width: 600px;">
   
-<textarea id="additional_knowledge_completion" wrap="soft" rows="10" cols="100" placeholder="additional text to add to journal about topic knowledge completion" style="display:block; text-align: left; width: 600px; height: 600px;"></textarea>
+<textarea id="additional_knowledge_completion" wrap="soft" rows="10" cols="100" placeholder="additional text to add to journal about topic knowledge completion" style="display:block; text-align: left; width: 600px; height: 200px;"></textarea>
 
 <br>
 
 <h3>[Step 4] Evaluate responses.</h3>
-When you click the evaluate button, a report will be generated. After the report is generated, ask the chatbot in [Step 5] about the evaluation and/or journal file.
+<p>When you click the evaluate button, a report will be generated. After the report is generated, ask the chatbot in [Step 5] about the evaluation and/or journal file.</p>
 <button id="evaluate" onclick="evaluate()" style="display:block">Evaluate</button>
 </th>
 
 <!-- ---------------------------------------- -->
 <th id="outputs">
-<h3 id="chatbot_output_label" style="display:none">[Step 5] Ask the chatbot questions about the evaluation and/or journal file.</h3>
+<h3 id="chatbot_output_label" style="display:block">[Step 5] Ask the chatbot questions about the evaluation and/or journal file.</h3>
 <!-- ---------------------------------------- -->
 <!-- View chatbot -->
 <input id="prompt" type="text" value="" placeholder="Ask the chatbot questions about the evaluation" rows="10" cols="100" style="display:none; text-align: left; height: 50px; width:600px;"><button id="run_selection" onclick="run_selection()" style="display:none">Run Selection</button>
